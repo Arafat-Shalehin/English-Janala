@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,9 +30,149 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
-<body>
     <!--StyleSheet-->
     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+
+        <div class="navbar bg-base-100 shadow-sm">
+
+            <div class="navbar-start sm:ml-10">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                    </div>
+                    <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 
+                        rounded-box z-1 mt-3 w-52 p-2 shadow gap-2">
+                    <li>
+                        <a href="#" class=""><i class="fa-solid fa-circle-question"></i>
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class=""><i class="fa-solid fa-book"></i>
+                            Learn
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class=""><i class="fa-solid fa-right-from-bracket rotate-180"></i>
+                            Log Out
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                    <a href="" class="flex items-center gap-1">
+                        <span class="text-lg font-bold">English</span>
+                        <img src="assets/logo.png" alt="Logo Pic">
+                        <span class="font-bangla text-lg font-semibold">জানালা</span>
+                    </a>
+            </div>
+
+            <div class="navbar-end hidden lg:flex sm:mr-10">
+                <ul class="menu menu-horizontal px-1 space-x-4">
+                    <li>
+                        <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-book"></i>
+                            Learn
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="btn btn-outline btn-primary"><i class="fa-solid fa-right-from-bracket rotate-180"></i>
+                            Log Out
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    
+    <section class="flex flex-col-reverse md:flex-row items-center justify-between py-5 gap-10
+    mx-auto w-11/12">
+
+        <div class="flex-1 text-center md:text-left">
+            <h2 class="md:text-5xl text-4xl font-bold"><span class="text-cyan-500">English</span> is Easy!!</h2>
+
+            <p class="font-bangla text-xl font-semibold mt-5">
+                আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার 
+                দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি 
+                Level এ.
+            </p>
+
+            
+            <input type="text" placeholder="Enter Your Name" class="input input-md mt-7"/><br>
+
+            <input type="password" placeholder="Enter a Password" class="input input-md mt-5" /><br>
+
+            <button class="btn btn-primary mt-5">Get Started</button>
+            
+        </div>
+        <div class="flex-1">
+            <img src="assets/hero-student.png" alt="Student Pic">
+        </div>
+
+    </section>
+
+    <section class="md:w-[1550px] md:mt-30 mt-15 mx-auto text-center">
+
+        <h2 class="md:text-5xl text-3xl font-bold"><span class="text-sky-600">Let's</span>
+             Learn Vocabularies
+        </h2>
+
+        <div id="level-container" class="mt-8 flex flex-col gap-5 px-20 md:flex md:flex-row md:gap-10 md:justify-center">
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 1
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 2
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 3
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 4
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 5
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 6
+            </button>
+
+            <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>
+                Lesson - 7
+            </button>
+
+        </div>
+
+        <div class="mt-15 rounded-xl md:py-20 py-10 bg-[#F8F8F8] items-center">
+
+            <p class="text-[#79716B] font-bangla mb-4">আপনি এখনো কোন Lesson Select করেন</p>
+            <h3 class="font-bangla md:text-4xl text-3xl">একটি Lesson Select করুন।</h3>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
