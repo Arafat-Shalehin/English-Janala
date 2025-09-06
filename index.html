@@ -127,5 +127,52 @@
 
     </section>
 
+
+
+    <section class="md:mt-30 mt-15 mx-auto text-center mb-15">
+
+        <h2 class="md:text-5xl text-3xl font-bold"><span class="text-sky-600">Let's</span>
+             Learn Vocabularies
+        </h2>
+
+        <div id="level-container" class=
+        "mt-8 gap-5 md:px-20 flex flex-wrap md:gap-10 justify-center">
+        </div>
+    </section>
+
+    <section id="spinner" class="flex justify-center items-center py-10 hidden">
+        <span class="loading loading-dots loading-xl"></span>
+    </section>
+
+    <section id="word-container" class=
+        "bg-gray-100 p-10 w-11/12 mx-auto mt-10 rounded-xl grid grid-cols-3 gap-5">
+
+            <div class="text-center col-span-full rounded-xl py-10 space-y-6">
+
+                <p class="text-[#79716B] font-medium font-bangla mb-4">আপনি এখনো কোন Lesson Select করেন</p>
+                <h3 class="font-bangla md:text-4xl text-3xl font-bold">একটি Lesson Select করুন।</h3>
+
+            </div>
+
+    </section>
+
+    <!-- Open the modal using ID.showModal() method -->
+    <!--<button class="btn" onclick="my_modal_5.showModal()">open modal</button>-->
+
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box">
+        <div id="detail-container">
+        </div>
+        <div class="modal-action">
+        <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Close</button>
+        </form>
+        </div>
+    </div>
+    </dialog>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
